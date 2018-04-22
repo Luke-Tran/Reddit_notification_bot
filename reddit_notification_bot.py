@@ -26,7 +26,7 @@ break_length = config.break_length
 max_post_age = config.time_filter
 
 # Add or remove search keywords from this list that you may want to be notified of.
-query_list = ['example', 'dog', 'cat', 'search', 'apple']
+query_list = config.query_list
 
 # This list will contain all the posts that have already been sent to the user
 # and will not be sent again.	

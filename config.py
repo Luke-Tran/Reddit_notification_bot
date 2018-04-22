@@ -23,3 +23,8 @@ break_length = 600
 # The maximum age of the posts to be searched.
 # Can be one of the following: hour, day, week, month, year, all
 time_filter = 'week'
+
+
+
+# Add or remove search keywords from this list that you may want to be notified of.
+query_list = ['example', 'dog', 'cat', 'search', 'apple']
