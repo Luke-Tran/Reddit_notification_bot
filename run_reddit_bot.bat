@@ -5,6 +5,8 @@
 :start_marker
 python reddit_notification_bot.py %*
 
+@REM After cmd prompt asks "Terminate batch job (Y/N)?",
+@REM enter "n" to re-run the bot.
 echo Process stopped. Close command prompt? (y/n)
 set/p restart=
 if %restart%==n goto start_marker
