@@ -45,6 +45,7 @@ def bot_login():
 	
 def run_bot(r):
 	while True:
+		print('Grabbing ' + max_post_age + ' old posts')
 		for query in query_list:
 			for post in r.subreddit(searched_subreddit).search(query, sort='new', syntax='lucene', time_filter=max_post_age):
 				if post.shortlink not in posts_list:
